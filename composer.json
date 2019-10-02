@@ -1,0 +1,29 @@
+{
+    "name": "strappberry/voyager-inverse-seed",
+    "description": "Seeds inversos para tablas de Voyager",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raúl Luna",
+            "email": "raul.luna@strappberry.com"
+        }
+    ],
+    "require": {
+        "orangehill/iseed": "^2.6",
+        "tcg/voyager": "^1.2",
+        "zanysoft/laravel-zip": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strappberry\\VoyagerInverseSeed\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Strappberry\\VoyagerInverseSeed\\VoyagerInverseSeedProvider"
+            ]
+        }
+    }
+}
