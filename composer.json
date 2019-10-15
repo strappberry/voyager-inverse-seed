@@ -11,7 +11,7 @@
     ],
     "require": {
         "orangehill/iseed": "^2.6",
-        "tcg/voyager": "^1.2",
+        "tcg/voyager": "^1.0",
         "zanysoft/laravel-zip": "^1.0"
     },
     "autoload": {
